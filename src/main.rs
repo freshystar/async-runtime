@@ -8,13 +8,13 @@ use std::{sync::Arc, time::Duration};
 async fn task_one() {
     println!("task one: start");
     sleep(Duration::from_secs(1)).await;
-    println!("task one: done");
+    println!("task one: done✅");
 }
 
 async fn task_two() {
     println!("task two: start");
     sleep(Duration::from_secs(2)).await;
-    println!("task two: done");
+    println!("task two: done✅");
 }
 
 fn main() {
